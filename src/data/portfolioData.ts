@@ -217,10 +217,10 @@ export const leadershipRoles = [
   },
   {
     id: 4,
-    role: "Organizer",
-    organization: "NeuroVerse Tech Fest",
-    duration: "2025",
-    description: "Organized Tech Fest 'NeuroVerse' with 1000+ attendees, coordinating logistics, managing teams, and ensuring smooth execution of events and workshops.",
+    role: "Founding Member",
+    organization: "Intell Alpha",
+    duration: "2024- Present",
+    description: "Co-founded a tech startup focused on AI-driven solutions, contributing to Hackathons, strategy, and team building.",
     icon: Trophy,
   },
 ];
