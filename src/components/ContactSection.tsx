@@ -116,10 +116,18 @@ const ContactSection = () => {
                   <h3 className="font-display text-lg font-semibold">Download Resume</h3>
                   <p className="text-sm text-muted-foreground">Get my latest CV</p>
                 </div>
-                <Button variant="default" size="lg" className="gap-2">
-                  <Download className="w-4 h-4" />
-                  Resume
-                </Button>
+                <a
+                  href="/resume.pdf"
+                  download
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Download resume"
+                >
+                  <Button variant="default" size="lg" className="gap-2">
+                    <Download className="w-4 h-4" />
+                    Resume
+                  </Button>
+                </a>
               </div>
             </motion.div>
           </motion.div>

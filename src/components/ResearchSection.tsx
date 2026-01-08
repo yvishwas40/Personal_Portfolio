@@ -63,7 +63,6 @@ const ResearchSection = () => {
                       <span className="text-muted-foreground">•</span>
                       <span className="text-sm text-muted-foreground">{paper.year}</span>
                       <span className="text-muted-foreground">•</span>
-                      <span className="text-sm text-muted-foreground">{paper.citations} citations</span>
                     </div>
 
                     {/* Abstract */}
@@ -79,7 +78,7 @@ const ResearchSection = () => {
                       className="inline-flex items-center gap-2 text-sm text-primary hover:underline"
                       whileHover={{ x: 5 }}
                     >
-                      Read Paper <ExternalLink className="w-4 h-4" />
+                      link <ExternalLink className="w-4 h-4" />
                     </motion.a>
                   </div>
                 </div>
